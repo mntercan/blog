@@ -1,68 +1,81 @@
-.navbar>a{
+nav>a{
     color: white !important;
 }
-
 .nav-item>a{
     color: white !important;
 }
 
-.post-body{
-    border: 2px solid #761CEA;
-    border-radius: 15px;
-    text-align: center;
-    align-items: center;
-    margin-top: 30px;
-    padding:25px;
+#posts{
+    margin-top: 50px;
+    padding: 30px;
 }
-
-.post-btn{
-    height: 50px;
-    width: 100;
-    background:#761CEA !important;
+.post-badge{
+  float: right !important;
+  margin-top:25px;
+  padding: 7px !important;
+  background: #761CEA !important;
 }
+.main-categories{
+  margin-top: 45px;
 
-.post-btn>a{
+}
+.main-categories>a,.main-categories>li{
+    background-color: #761CEA !important;
+    padding: 25px !important;
     color: white !important;
-    text-decoration: none !important;
 }
-
-#post{
-    margin-top: 250px;
+.main-ads>a>img{
+  height: 100% !important;
+  width:100% !important;
 }
-.post-image>img{
-    width: 100% !important;
-    
+.authors{
+  margin-top: 35px;
+  background-color: #761CEA;
+  padding: 15px;
+  color: white;
 }
-.post-content{
-    font-size: 15px;
+.authors>ul,.authors>ul>li{
+  text-decoration: none !important;
+  list-style: none;
+  font-size: 25px;
+  margin-left: -18px;
 }
-.post-dateposted{
-    margin-top: 15px;
+.main-right-frame{
+  margin-top: 25px
 }
-.post-title{
+.badge>a{
+  color:white !important;
+  text-decoration: none !important;
+}
+.post-card{
+    margin-top: 25px;
+    border: 1px black solid;
+    border-radius: 15px;
     padding: 15px;
 }
-
-.hero-title{
-    font-size: 145px;
+.post-btn{
+    margin-top: 15px;
+    background: #761CEA !important;
+    outline: #761CEA !important;
+    border: #761CEA !important;
 }
-
-.hero-right{
-    margin-top: 170px;
-}
-
-.btn-violet{
-    background-color: #761CEA !important;
-    padding: 10px !important;
-    font-size: 20px !important;
-}
-.btn-violet>a{
+.btn>a{
     color: white !important;
     text-decoration: none !important;
 }
-
-.divider{
-    height: 1px;
-    width: 100%;
-    background-color: black;
+.post-image>img{
+    height: 100% !important;
+    width: 100% !important;
+}
+#pagination{
+  align-items: center !important;
+}
+@media all and (max-width:600px){
+    #posts{
+        align-items: center;
+        text-align: center;
+    }
+    .main-post-column{
+      order:2;
+    }
 }
